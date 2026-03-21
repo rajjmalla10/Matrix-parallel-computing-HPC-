@@ -17,7 +17,10 @@ Matric multiplication is fundamental operation in scientific computing, machine 
 
 
 ## How to complie and run. 
-Comming soon. 
+```bash
+mpicc -o matrix_multiply src/matrix_multiply/matrix_multiply.c
+mpirun -np 4 ./matrix_multiply
+```
 
 ## Results 
 Comming Soon.
