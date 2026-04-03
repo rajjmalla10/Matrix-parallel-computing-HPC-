@@ -15,9 +15,9 @@ Scaled the matrix from 1000x1000 matrix, add timing and scaling analysis. For 1 
 
 
 ## Projects 
--[x] Parellel Matrix multiplication with MPI
--[ ] COntainerzed with Docker
--[ ] Cloud Deployment
+- [x] Parellel Matrix multiplication with MPI
+- [ ] COntainerzed with Docker
+- [ ] Cloud Deployment
 
 
 ## How to complie and run. 
@@ -28,7 +28,7 @@ mpirun -np 4 ./matrix_multiply
 ## Results 
 1000x1000 Matrix Multiplication Scaling Analysis
 
-| Processes | Time (seconds) | Speedup |
+| Processes | Time (seconds)| Speedup |
 |-----------|---------------|---------|
 | 1         | 3.364554      | 1x      |
 | 2         | 1.909534      | 1.76x   |
